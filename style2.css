@@ -1,0 +1,111 @@
+/* Write some CSS below */
+body {
+	font-family:'Poppins', sans-serif;
+	color: black;
+	font-size: 21px;
+	margin:0;
+	text-align: center;
+}
+
+h1,p {
+	color: white ;
+	font-family: 'Chivo', sans-serif;
+	text-align: center;
+}
+
+.Banner {
+	background-image:url("C:/Users/Agus Ventre/Desktop/2020/Programacion/Computer.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 150px 0px;
+	text-align: center;
+}
+
+.Cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr ;
+	grid-row-gap: 18px;	
+}
+
+.container  {
+	width: 900px;
+    margin:60px;
+}
+
+.banner h1 {
+	color: white;
+	font-family: 'Chivo', sans-serif;
+	font-size: 45px
+	margin: 0;	
+	text-align: center;
+}
+
+ .banner p {
+ 	color: white;
+ 	font-size: 26px
+ 	opacity:1px;
+ 	text-align: center;
+ }
+
+ .btn-black {
+ 	background-color:#5a0fa6;
+ 	color: white;
+ 	padding: 16px 48px;
+ 	border-radius: 4px;
+ 	display: inline-block;
+ 	transition:1s;
+ 	font-size: 20px;
+ 	font-weight: bold;
+}
+
+.btn-black:hover {
+	background-color: #000000 ;
+	color: white;
+}
+
+.card-white {
+	background-color: white;
+	box-shadow: 0 0 16px ;
+	border-radius: 4px;
+	padding: 25px;
+	margin:10px;
+}
+
+.card-white img {
+	width: 340px;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 4px;
+	text-align: center;
+	background-position: center;
+}
+
+.card-white h3, h4 {
+	margin-bottom: 	0;
+	color: black;
+}
+
+.Footer {
+	background-color: #414754;
+	color:white;
+	padding: 20px 0px;
+	text-align: bottom-left; 
+}
+
+@media (min-width: 300px) {
+	.container {
+		width: 400px;
+	}
+	.cards {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+ }
+
+ @media (min-width: 700px) {
+ 	.container {
+ 		width: 600px;
+ 	}
+ 	.cards {
+ 		grid-template-columns: 1fr 1fr 1fr;
+ 	}
+ }
